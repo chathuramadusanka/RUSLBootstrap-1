@@ -1,107 +1,65 @@
-.logo{
-	  width: 100px;
-	  height:100px;
-  }
-  .navbar{
-  margin-bottom:0;
-  margin-radius:0;
-  background-color: #FFF;
- 
-  padding: 0.45% 0;
-  font-size: 1.4em;
-  border: 0;
-  position: relative;
-  min-height: 50px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
-  }
-  
-  .navbar-brand{
-  float: left;
-  min-height:105px;
-  padding: 0 2px 20px;
-  max-height: 15px;
-  max-width: 20px;
-  width: 20px;
-  height: 20px;
-	
-  
-  }
-  
-  .navbar-inverse .navbar-nav .active a, .navbar-inverse navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
-  color:#000;
-  background-color: #FFF ;
-  
-  }
-  .navbar-inverse .navbar-nav li a{
-  color: #000;
-  }
-  
-  #icon{
-  max-width:250px;
-  margin: 1% auto;
-  }
-  
-  footer{
-  width: 100%;
-  background-color:#000;
-  padding:5%;
-  color: #FFF;
-  
-  }
-  
-  .fa{
-  padding: 15px;
-  font-size: 30px;
-  
-  
-  }
-  
-  .fa:hover {
-  color:#D5D5D5;
-  text-decoration:none;
-  
-  
-  }
-  
-  @media (max-width:600px){
-  
-	#icon{
-	
-		max-width:150px;  
-  
-	}
-	
-	h2{
-		font-size: 1.7em;
-	}
-  }
-  form-control{
+@import url(https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;900&display=swap);
+*{
+	font-family: 'Poppins', sans-serif;
+}
+/*research topic row*/
+div.polaroid {/* controlling the box type affect in objects*/
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+	width: 40%;
+	background-color: #F5F5F5;
+}
+
+div.polaroidup{/* controlling the about us box colur and size*/
+	box-shadow: none;
+	margin-bottom: 25px;
+	width: inherit;
+	height: 100px;
+	background-color: rgb(245, 245, 245);
+	color:#000;
+}
+.align-right{
+    text-align: right !important;
+}
+.bg-dark-black{/* related to about us text block*/
+	padding: 0px 0px 0px 0px;
+	border-left: rgba(81, 124, 81, 0) 10px solid;
+	border-right: rgba(81, 124, 81, 0) 20px solid;       
+}
+
+.relative {
+	position: relative;
+}
+
+.align-right{
+	text-align: right !important;
+}
+header {/* header for about us text (incase we may need)*/
+        display: block;
+}
+.container{
+        padding-right: 15px;
+        scroll-padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+}
+/*contact topic ends*/
+form-control{
 	  width: 50%;
 	  border: 5px;
   }
-  input{
-	  height: 45px;
-  }
-  button{
-	  background:grey;
-	  color: #fff;
-	  font-size: 20px;
-	  font-weight: bold;
-	  height: 50px;
-	  margin-top:20px;
-	  border-color:transparent;
-  }
-  form{
+form{
 	padding-top:10px;
 	padding-bottom:10px;
-	width:50%;
+	width:85%;
 	margin:50px;
 	outline-color:black;
 	outline:5px;
-	background-color:black;
-	color:#fff;
+	background:transparent;
+	color:black;
 	transition: all 4s ease-in-out;
+	font-size:20px;
 }
 .info{
 	width:100%;
@@ -112,24 +70,52 @@
 	height:50px;
 }
 .contact{
-	background-color:;
+	background-color: none;
 }
-td{
+.td-hight{
 	height:50px;
 	
 }
-table social, td{
+.table-social{
 	padding:10px;
-}
-.contact{
-	
 }
 table td{
 	padding:0px;
 }
-.banner{
-	margin-bottom:5px;
+.image{
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-right:20px;
+	
 }
-.description{
-	font-family:Times, "Times New Roman", serif;
+.offices{
+	padding-left:0px;
+	padding-top:100px;
+	font-size:18px;
 }
+input{
+	background:transparent;
+	background:none;
+	color:#99abb8;
+	font-size: 15px;
+	height: 45px;
+}
+.form input{
+	background:transparent;
+	background:none;
+	color:#99abb8;
+	font-size: 15px;
+}
+.form textarea{
+	background:transparent;
+	background:none;
+	color:#99abb8;
+	font-size: 15px;
+}
+/*.front{
+  background-color: #c98f23bd; /* Fallback color
+  background-color: #1c272bc5; /* Black w/opacity/see-through 
+  color: white;
+  font-weight: bold;       
+}*/ 
